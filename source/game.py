@@ -11,7 +11,7 @@ class Game:
     """
     def __init__(self):
         self.player = Player(self)
-        self.map = Map(self, '../MFGJ-Summer23/test_map.txt')
+        self.map = Map(self, '../MFGJ-Summer-2023/test_map.txt')
     
     def play(self):
         """Starts the main game loop."""
