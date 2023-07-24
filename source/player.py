@@ -78,3 +78,4 @@ class Player:
                     return surrounding[3].object.interact()
             case 'I':
                 return self.open_inventory()
+
